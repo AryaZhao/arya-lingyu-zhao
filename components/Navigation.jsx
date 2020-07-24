@@ -1,10 +1,13 @@
 import React from 'react'
-import Button from '@material-ui/core/Button';
-import styled from 'styled-components'
+import {ButtonGroup,Button } from '@material-ui/core';
 
 
-export const Navigation = () => (
-  <Button variant="contained" color="primary">
-      Hello World
-  </Button>
-);
+export const Navigation = () => {
+  return (
+  <ButtonGroup variant="text" color="primary" aria-label="text primary button group">
+    <Button heref='/'>Home</Button>
+    <Button href='#internships'>Internships</Button>
+    <Button href='#projects'>Projects</Button>
+    <Button href = '#flute'>Flute</Button>
+  </ButtonGroup>
+)}
