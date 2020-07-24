@@ -9,12 +9,9 @@
     "lint": "eslint --cache --fix pages components  --ext .js .jsx"
   },
   "dependencies": {
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
+    "@material-ui/core": "^4.11.0",
     "next": "9.3.5",
-    "popper.js": "^1.16.1",
     "react": "16.13.1",
-    "react-bootstrap": "^1.3.0",
     "react-dom": "16.13.1",
     "styled-components": "^5.1.1"
   },
