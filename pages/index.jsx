@@ -4,6 +4,7 @@ import React from 'react'
 import {Header} from '../components/Header'
 import {Introduction} from '../components/Introduction'
 import {Internships} from '../components/Internships'
+import {Projects} from '../components/Projects'
 import {Flute} from '../components/Flute'
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
 
@@ -20,7 +21,7 @@ const Home = () => (
         <Navigation />
         <Introduction />
         <Internships />
-          {/* <Projects /> */}
+        <Projects />
         <Flute />
     </Container>
   </MuiThemeProvider>

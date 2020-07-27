@@ -37,5 +37,6 @@ export const Introduction = () => {
           <IconButton color="inherit" href="https://www.youtube.com/channel/UCM9HMBZjUXnoZej-xxFaCyQ" target="_blank"><YouTube /></IconButton>
         </Grid>
       </Grid>
+      <Typography variant="body1" align="center">This page is built with React, Next, JSX, and Mateiral UI</Typography>
     </Box>
 )}
