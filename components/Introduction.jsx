@@ -1,7 +1,6 @@
 // import { styled } from '@material-ui/core/styles';
-import {YouTube, GitHub, Email,LinkedIn } from '@material-ui/icons';
-import {Box, Typography, Grid} from '@material-ui/core';
-
+import {YouTube, GitHub, AlternateEmail,LinkedIn } from '@material-ui/icons';
+import {Box, Typography, Grid, IconButton} from '@material-ui/core';
 
 const headshotStyle = {
     display:'block',
@@ -25,17 +24,17 @@ export const Introduction = () => {
       <br/>
       <Grid  container justify="center" spacing={10}>
         <Grid item >
-          <Email href="mailto:lingyu.zhao@columbia.edu"/>
+          <IconButton color="inherit" href="mailto:lingyu.zhao@columbia.edu" target="_blank"><AlternateEmail/></IconButton>
         </Grid>
 
         <Grid item>
-          <LinkedIn href="https://www.linkedin.com/in/arya-lingyu-zhao"/>
+        <IconButton color="inherit" href="https://www.linkedin.com/in/arya-lingyu-zhao" target="_blank"><LinkedIn /></IconButton>
         </Grid>
         <Grid item>
-          <GitHub href="https://github.com/AryaZhao"/>
+          <IconButton color="inherit" href="https://github.com/AryaZhao" target="_blank"><GitHub /></IconButton>
         </Grid>
         <Grid item>
-          <YouTube href="https://www.youtube.com/channel/UCM9HMBZjUXnoZej-xxFaCyQ"/>
+          <IconButton color="inherit" href="https://www.youtube.com/channel/UCM9HMBZjUXnoZej-xxFaCyQ" target="_blank"><YouTube /></IconButton>
         </Grid>
       </Grid>
     </Box>
