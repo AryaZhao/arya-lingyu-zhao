@@ -1,16 +1,16 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
-export const Header = () => (
+const Header = () => (
   <Head>
     <meta
       name="viewport"
       content="minimum-scale=1, initial-scale=1, width=device-width"
     />
     <title>Arya Lingyu Zhao</title>
-    <link rel="icon" href="/columbia-university-logo.ico" />  
-    
+    <link rel="icon" href="/columbia-university-logo.ico" />
+
     <script>
-    <script
+      <script
         dangerouslySetInnerHTML={{
           __html: `
             (function(h,o,t,j,a,r){
@@ -20,14 +20,16 @@ export const Header = () => (
               r=o.createElement('script');r.async=1;
               r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
               a.appendChild(r);
-            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');"};`
-          
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');"};`,
+
         }}
         async
       />
     </script>
     {/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"></link> */}
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap"  />
-    <link rel="stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </Head>
-)
+);
+
+export default Header;
