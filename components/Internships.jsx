@@ -26,7 +26,7 @@ const makeithappen = {
 const utofun = {
   company: 'UTOFUN',
   link: 'https://www.linkedin.com/company/utofun/about/',
-  title: 'Data Engineer Intern (part-time)',
+  title: 'Software Engineer Intern (part-time)',
   location: 'NY, NYC',
   time: 'Dec. 2020 - Jan. 2020',
   description: '',
