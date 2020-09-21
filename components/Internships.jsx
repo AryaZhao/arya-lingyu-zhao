@@ -16,7 +16,7 @@ const dtx = {
 const makeithappen = {
 
   company: 'makeithappen.nyc',
-  link: 'http://makeithappen.nyc/pages/home.html',
+  link: 'http://makeithappen.nyc/',
   title: 'Web Development Intern (part-time)',
   location: 'NY, NYC',
   time: 'Jan. 2020 - Apr. 2020',
