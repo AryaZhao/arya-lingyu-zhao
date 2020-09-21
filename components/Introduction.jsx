@@ -20,10 +20,6 @@ const Introduction = () => (
     <img style={headshotStyle} src="/headshot.jpg" />
     <Typography variant="h4" align="center" gutterBottom>Arya Lingyu Zhao</Typography>
     <Typography variant="h6" align="center">CS enthusiast, flutist, Broadway fan</Typography>
-    <Typography variant="h6" align="center">
-      Backend Software Engineer Intern @
-      <a href="https://www.thedtxcompany.com/" target="_blank">the dtx company</a>
-    </Typography>
     <Typography variant="h6" align="center" gutterBottom>
       B.S. Computer Science @ Columbia University
       <br />

@@ -4,7 +4,7 @@ import Internship from './Internship';
 const dtx = {
   company: 'the dtx company',
   link: 'https://www.thedtxcompany.com/',
-  title: 'Software Engineer Intern (full-time)',
+  title: 'Software Engineering Intern (full-time)',
   location: 'NY, NYC',
   time: 'Jun. 2020 - Aug. 2020',
   description:
@@ -26,7 +26,7 @@ const makeithappen = {
 const utofun = {
   company: 'UTOFUN',
   link: 'https://www.linkedin.com/company/utofun/about/',
-  title: 'Software Engineer Intern (part-time)',
+  title: 'Software Engineering Intern (part-time)',
   location: 'NY, NYC',
   time: 'Dec. 2020 - Jan. 2020',
   description: '',
