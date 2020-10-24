@@ -44,7 +44,7 @@ const Introduction = () => (
     <Typography variant="body1" align="center">
       This page is built with React, Next, JSX, and Mateiral UI.
       {' '}
-      <a href="https://github.com/AryaZhao/arya-lingyu-zhao.git">codes here</a>
+      <a href="https://github.com/AryaZhao/arya-lingyu-zhao.git">View my code</a>
     </Typography>
   </Box>
 );
