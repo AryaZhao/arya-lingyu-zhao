@@ -6,7 +6,7 @@ const oracle = {
   link: 'https://www.oracle.com/index.html',
   title: 'Incoming Software Engineer (full-time)',
   location: 'Redwood City, Bay Area',
-  time: 'Start in Jun. 2020',
+  time: 'Start in Jun. 2021',
   description:
     `- Developed, tested and deployed website converter microservice, and integrated new features into website builder Flowpage API, <b>shortening 98% of transition time</b> for users from company’s competitors<br/> 
     - Coded in <b>Node.js</b> using <b>TypeScript, Express, Multer, Cheerio.js, Hapi.js, Axios, and REST</b>; managed <b>Azure SQL DB</b> and <b>Firebase</b> using <b>TypeORM, GraphQL, Apollo</b>; tested and deployed using <b>Docker, Jest, SuperTest, and ESlint</b> <br/>
