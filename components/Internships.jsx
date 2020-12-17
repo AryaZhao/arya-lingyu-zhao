@@ -2,10 +2,10 @@ import { Typography } from '@material-ui/core';
 import Internship from './Internship';
 
 const oracle = {
-  company: 'Oracle Corporation',
+  company: 'Oracle NetSuite',
   link: 'https://www.oracle.com/index.html',
   title: 'Incoming Software Engineer (full-time)',
-  location: 'Redwood City, Bay Area',
+  location: 'Bay Area, CA',
   time: 'Start in Jun. 2021',
   description:
     `- Developed, tested and deployed website converter microservice, and integrated new features into website builder Flowpage API, <b>shortening 98% of transition time</b> for users from company’s competitors<br/> 
