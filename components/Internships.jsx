@@ -3,7 +3,7 @@ import Internship from './Internship';
 
 const oracle = {
   company: 'Oracle NetSuite',
-  link: 'https://www.oracle.com/index.html',
+  link: 'http://www.netsuite.com',
   title: 'Incoming Software Engineer (full-time)',
   location: 'Bay Area, CA',
   time: 'Start in Jun. 2021',
