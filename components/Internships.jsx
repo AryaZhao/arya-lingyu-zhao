@@ -53,7 +53,7 @@ const Internships = () => (
     </Typography>
     <hr />
     <br />
-    <Internship info={oracle} />
+    {/* <Internship info={oracle} /> */}
     <Internship info={dtx} />
     <Internship info={makeithappen} />
     <Internship info={utofun} />
