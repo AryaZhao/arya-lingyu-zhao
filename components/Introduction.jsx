@@ -32,7 +32,7 @@ const Introduction = () => (
       </Grid>
 
       <Grid item>
-        <IconButton color="inherit" href="https://www.linkedin.com/in/arya-lingyu-zhao" target="_blank"><LinkedIn /></IconButton>
+        <IconButton color="inherit" href="https://www.linkedin.com/in/aryazhao" target="_blank"><LinkedIn /></IconButton>
       </Grid>
       <Grid item>
         <IconButton color="inherit" href="https://github.com/AryaZhao" target="_blank"><GitHub /></IconButton>
