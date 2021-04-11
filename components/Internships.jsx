@@ -1,6 +1,15 @@
 import { Typography } from '@material-ui/core';
 import Internship from './Internship';
 
+const amzn = {
+  company: 'Amazon',
+  link: 'https://en.wikipedia.org/wiki/Amazon_(company)',
+  title: 'Incoming Software Engineering (full-time)',
+  location: 'WA, Seattle',
+  time: 'Starting in Jun. 2021',
+  description:
+    ``,
+};
 const dtx = {
   company: 'Flowcode',
   link: 'https://www.thedtxcompany.com/',
