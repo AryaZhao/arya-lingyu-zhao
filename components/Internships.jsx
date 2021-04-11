@@ -50,6 +50,7 @@ const Internships = () => (
     </Typography>
     <hr />
     <br />
+    <Internship info={amzn} />
     <Internship info={dtx} />
     <Internship info={makeithappen} />
     <Internship info={utofun} />
