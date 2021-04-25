@@ -42,7 +42,7 @@ const Introduction = () => (
       </Grid>
     </Grid>
     <Typography variant="body1" align="center">
-      This page is built with React, Next, JSX, and Mateiral UI.
+      This page is built with React, Next, JSX, and Material UI.
       {' '}
       <a href="https://github.com/AryaZhao/arya-lingyu-zhao.git">View my code</a>
     </Typography>
