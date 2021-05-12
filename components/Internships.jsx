@@ -5,7 +5,7 @@ const amzn = {
   company: 'Amazon',
   link: 'https://en.wikipedia.org/wiki/Amazon_(company)',
   title: 'Incoming Software Engineer (full-time)',
-  location: 'WA, Seattle',
+  location: 'Seattle, WA',
   time: 'Starting in Jun. 2021',
   description:
     ``,
@@ -14,7 +14,7 @@ const dtx = {
   company: 'Flowcode',
   link: 'https://www.thedtxcompany.com/',
   title: 'Software Engineering Intern (full-time)',
-  location: 'NY, NYC',
+  location: 'NYC, NY',
   time: 'Jun. 2020 - Aug. 2020',
   description:
     `- Developed, tested and deployed website converter microservice, and integrated new features into website builder Flowpage API, <b>shortening 98% of transition time</b> for users from company’s competitors<br/> 
@@ -27,7 +27,7 @@ const makeithappen = {
   company: 'makeithappen.nyc',
   link: 'http://makeithappen.nyc/',
   title: 'Web Development Intern (part-time)',
-  location: 'NY, NYC',
+  location: 'NYC, NY',
   time: 'Jan. 2020 - Apr. 2020',
   description: '',
 };
@@ -36,7 +36,7 @@ const utofun = {
   company: 'UTOFUN',
   link: 'https://www.linkedin.com/company/utofun/about/',
   title: 'Software Engineering Intern (part-time)',
-  location: 'NY, NYC',
+  location: 'NYC, NY',
   time: 'Dec. 2020 - Jan. 2020',
   description: '',
 };
