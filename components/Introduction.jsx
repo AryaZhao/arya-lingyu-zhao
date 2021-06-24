@@ -19,16 +19,16 @@ const Introduction = () => (
   <Box id="introduction">
     <img style={headshotStyle} src="/headshot.jpg" />
     <Typography variant="h4" align="center" gutterBottom>Arya Lingyu Zhao</Typography>
-    <Typography variant="h6" align="center">CS enthusiast, flutist, Broadway fan</Typography>
+    <Typography variant="h6" align="center">programmer, flutist, Broadway fan</Typography>
     <Typography variant="h6" align="center" gutterBottom>
-      B.S. Computer Science @ Columbia University
+      Columbia University, School of Engineering
       <br />
-      Graduating in May 2021
+      B.S. Computer Science, 2018 - 2021
     </Typography>
     <br />
     <Grid container justify="center" spacing={10}>
       <Grid item>
-        <IconButton color="inherit" href="mailto:lingyu.zhao@columbia.edu" target="_blank"><AlternateEmail /></IconButton>
+        <IconButton color="inherit" href="mailto:lingyuzhaoarya@gmail.com" target="_blank"><AlternateEmail /></IconButton>
       </Grid>
 
       <Grid item>

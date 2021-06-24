@@ -4,16 +4,16 @@ import Internship from './Internship';
 const amzn = {
   company: 'Amazon',
   link: 'https://en.wikipedia.org/wiki/Amazon_(company)',
-  title: 'Incoming Software Engineer (full-time)',
+  title: 'Software Engineer',
   location: 'Seattle, WA',
-  time: 'Starting in Jun. 2021',
+  time: 'Jun. 2021 - Present',
   description:
     ``,
 };
-const dtx = {
+const flowcode = {
   company: 'Flowcode',
-  link: 'https://www.thedtxcompany.com/',
-  title: 'Software Engineering Intern (full-time)',
+  link: 'https://www.flowcode.com/',
+  title: 'Software Engineering Intern',
   location: 'NYC, NY',
   time: 'Jun. 2020 - Aug. 2020',
   description:
@@ -51,9 +51,9 @@ const Internships = () => (
     <hr />
     <br />
     <Internship info={amzn} />
-    <Internship info={dtx} />
-    <Internship info={makeithappen} />
-    <Internship info={utofun} />
+    <Internship info={flowcode} />
+    {/* <Internship info={makeithappen} /> */}
+    {/* <Internship info={utofun} /> */}
   </div>
 );
 
