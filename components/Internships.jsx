@@ -2,10 +2,10 @@ import { Typography } from '@material-ui/core';
 import Internship from './Internship';
 
 const amzn = {
-  company: 'Amazon',
-  link: 'https://en.wikipedia.org/wiki/Amazon_(company)',
+  company: 'Amazon Web Services',
+  link: 'https://aws.amazon.com/q/business',
   title: 'Software Engineer',
-  location: 'Seattle, WA',
+  location: 'NYC, NY',
   time: 'Jun. 2021 - Present',
   description:
     ``,
@@ -52,8 +52,6 @@ const Internships = () => (
     <br />
     <Internship info={amzn} />
     <Internship info={flowcode} />
-    {/* <Internship info={makeithappen} /> */}
-    {/* <Internship info={utofun} /> */}
   </div>
 );
 
