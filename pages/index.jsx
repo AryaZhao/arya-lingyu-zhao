@@ -1,6 +1,6 @@
-import { Container } from '@material-ui/core';
+import { Container } from '@mui/material';
 import React from 'react';
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Navigation from '../components/Navigation';
 import Header from '../components/Header';
 import Introduction from '../components/Introduction';
@@ -8,14 +8,14 @@ import Internships from '../components/Internships';
 import Projects from '../components/Projects';
 import Flute from '../components/Flute';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   typography: {
     fontFamily: 'Crimson Text, serif',
   },
 });
 
 const Home = () => (
-  <MuiThemeProvider theme={theme}>
+  <ThemeProvider theme={theme}>
     <Header />
     <Container maxWidth="lg">
       <Navigation />
@@ -24,7 +24,7 @@ const Home = () => (
       <Projects />
       <Flute />
     </Container>
-  </MuiThemeProvider>
+  </ThemeProvider>
 );
 
 export default Home;
